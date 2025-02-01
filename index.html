@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Dark Theme Page</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        header {
+            background-color: #000;
+            color: #ffcc00;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        img {
+            width: 50%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        form {
+            background: #222;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            width: 300px;
+        }
+        input {
+            display: block;
+            width: 80%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ffcc00;
+            background: #333;
+            color: white;
+            border-radius: 0;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 10px;
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+            width: 90%;
+        }
+        .accept {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .cancel {
+            background-color: #f44336;
+            color: white;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #000;
+            color: #ffcc00;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Personalized Dark Page</h1>
+    </header>
+    
+    <img src="https://via.placeholder.com/600" alt="Personalized Image">
+    
+    <form>
+        <input type="text" placeholder="Enter your name" required>
+        <input type="email" placeholder="Enter your email" required>
+        <input type="password" placeholder="Enter your password" required>
+        <button type="submit" class="accept">Accept</button>
+        <button type="reset" class="cancel">Cancel</button>
+    </form>
+    
+    <footer>
+        &copy; 2025 Marc Metellus. All Rights Reserved.
+    </footer>
+</body>
+</html>
